@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Test_Runner" project="Projectcucumber1" tests="29" started="29" failures="0" errors="0" ignored="0">
+  <testsuite name="com.adactin_feature.Test_Runner" time="14.839">
+    <testsuite name="Feature: Hotel Booking In Adactin Application" time="14.839">
+      <testsuite name="Scenario Outline: Login page" time="6.769">
+        <testsuite name="Examples:" time="6.769">
+          <testsuite name="| ABC | 123 |" time="0.855">
+            <testcase name="Given User  Launch The Application" classname="| ABC | 123 |" time="0.001"/>
+            <testcase name="When User Enter The&quot;ABC&quot; Username Field" classname="| ABC | 123 |" time="0.0"/>
+            <testcase name="And User Enter The&quot;123&quot; Password Field" classname="| ABC | 123 |" time="0.0"/>
+            <testcase name="Then User Click on The Login button and It Navigate To The Search Hotel Page" classname="| ABC | 123 |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| Gayathri7696 | SD95CF |" time="5.335">
+            <testcase name="Given User  Launch The Application" classname="| Gayathri7696 | SD95CF |" time="0.0"/>
+            <testcase name="When User Enter The&quot;Gayathri7696&quot; Username Field" classname="| Gayathri7696 | SD95CF |" time="0.0"/>
+            <testcase name="And User Enter The&quot;SD95CF&quot; Password Field" classname="| Gayathri7696 | SD95CF |" time="0.001"/>
+            <testcase name="Then User Click on The Login button and It Navigate To The Search Hotel Page" classname="| Gayathri7696 | SD95CF |" time="0.001"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario: Search Hotel Page" time="2.297">
+        <testcase name="When User Enter The &quot;Sydney&quot;" classname="Scenario: Search Hotel Page" time="0.001"/>
+        <testcase name="And User Select The Hotel" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Select The Room Type" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Select Required Number Of Rooms" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Enter The Check In Date" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Enter The Check Out Date" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Select The Adults Per Room" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Select The Childern Per Room" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="Then User Click On The Search It Navigate To Th Select Hotel Page" classname="Scenario: Search Hotel Page" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Select Hotel Page" time="1.184">
+        <testcase name="When User Click The Radio button" classname="Scenario: Select Hotel Page" time="0.0"/>
+        <testcase name="Then User Click On The Continue It Navigate To The Select Hotel Page" classname="Scenario: Select Hotel Page" time="0.001"/>
+      </testsuite>
+      <testsuite name="Scenario: Payment Page" time="3.411">
+        <testcase name="When User Enter The First Name Of The Account Holder" classname="Scenario: Payment Page" time="0.0"/>
+        <testcase name="And User Enter The Second Name Of The Account Holder" classname="Scenario: Payment Page" time="0.001"/>
+        <testcase name="And User Enter The Billing Address" classname="Scenario: Payment Page" time="0.0"/>
+        <testcase name="And User Enter The Cerdit Card Number" classname="Scenario: Payment Page" time="0.0"/>
+        <testcase name="And User Select The cerdit Card Type" classname="Scenario: Payment Page" time="0.0"/>
+        <testcase name="And User Select The Month Of Expiry" classname="Scenario: Payment Page" time="0.0"/>
+        <testcase name="And User Select The Year Of Expiry" classname="Scenario: Payment Page" time="0.0"/>
+        <testcase name="And User Select The CVV Number" classname="Scenario: Payment Page" time="0.0"/>
+        <testcase name="And User Click On The Book Now It Navigate To The Booking Configuration Page" classname="Scenario: Payment Page" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Booking Configuration Page" time="0.001">
+        <testcase name="Then User Click On The Logout It Navigate To The Logout Page" classname="Scenario: Booking Configuration Page" time="0.001"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

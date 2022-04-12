@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Test_Runner" project="Projectcucumber1" tests="29" started="29" failures="0" errors="2" ignored="7">
+  <testsuite name="com.adactin_feature.Test_Runner" time="11.441">
+    <testsuite name="Feature: Hotel Booking In Adactin Application" time="11.441">
+      <testsuite name="Scenario Outline: Login page" time="6.515">
+        <testsuite name="Examples:" time="6.515">
+          <testsuite name="| ABC | 123 |" time="1.084">
+            <testcase name="Given User  Launch The Application" classname="| ABC | 123 |" time="0.0"/>
+            <testcase name="When User Enter The&quot;ABC&quot; Username Field" classname="| ABC | 123 |" time="0.0"/>
+            <testcase name="And User Enter The&quot;123&quot; Password Field" classname="| ABC | 123 |" time="0.0"/>
+            <testcase name="Then User Click on The Login button and It Navigate To The Search Hotel Page" classname="| ABC | 123 |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| Gayathri7696 | SD95CF |" time="4.894">
+            <testcase name="Given User  Launch The Application" classname="| Gayathri7696 | SD95CF |" time="0.001"/>
+            <testcase name="When User Enter The&quot;Gayathri7696&quot; Username Field" classname="| Gayathri7696 | SD95CF |" time="0.0"/>
+            <testcase name="And User Enter The&quot;SD95CF&quot; Password Field" classname="| Gayathri7696 | SD95CF |" time="0.0"/>
+            <testcase name="Then User Click on The Login button and It Navigate To The Search Hotel Page" classname="| Gayathri7696 | SD95CF |" time="0.0"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario: Search Hotel Page" time="2.249">
+        <testcase name="When User Enter The &quot;Sydney&quot;" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Select The Hotel" classname="Scenario: Search Hotel Page" time="0.001"/>
+        <testcase name="And User Select The Room Type" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Select Required Number Of Rooms" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Enter The Check In Date" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Enter The Check Out Date" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Select The Adults Per Room" classname="Scenario: Search Hotel Page" time="0.0"/>
+        <testcase name="And User Select The Childern Per Room" classname="Scenario: Search Hotel Page" time="0.001"/>
+        <testcase name="Then User Click On The Search It Navigate To Th Select Hotel Page" classname="Scenario: Search Hotel Page" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Select Hotel Page" time="1.123">
+        <testcase name="When User Click The Radio button" classname="Scenario: Select Hotel Page" time="0.0"/>
+        <testcase name="Then User Click On The Continue It Navigate To The Select Hotel Page" classname="Scenario: Select Hotel Page" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Payment Page" time="0.013" incomplete="true">
+        <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'com.sd.Step_definition.user_Enter_The_Second_Name_Of_The_Account_Holder(String) in file:/C:/Users/Admin/eclipse-workspace/Projectcucumber1/target/test-classes/' with pattern [^User Enter The Second Name Of The Account Holder$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: And User Enter The Second Name Of The Account Holder&#13;
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)&#13;
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+        <testcase name="When User Enter The First Name Of The Account Holder" classname="Scenario: Payment Page" time="0.0"/>
+        <testcase name="And User Enter The Second Name Of The Account Holder" classname="Scenario: Payment Page" time="0.009">
+          <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'com.sd.Step_definition.user_Enter_The_Second_Name_Of_The_Account_Holder(String) in file:/C:/Users/Admin/eclipse-workspace/Projectcucumber1/target/test-classes/' with pattern [^User Enter The Second Name Of The Account Holder$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: And User Enter The Second Name Of The Account Holder&#13;
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)&#13;
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And User Enter The Billing Address" classname="Scenario: Payment Page" time="0.001" ignored="true"/>
+        <testcase name="And User Enter The Cerdit Card Number" classname="Scenario: Payment Page" time="0.0" ignored="true"/>
+        <testcase name="And User Select The cerdit Card Type" classname="Scenario: Payment Page" time="0.0" ignored="true"/>
+        <testcase name="And User Select The Month Of Expiry" classname="Scenario: Payment Page" time="0.0" ignored="true"/>
+        <testcase name="And User Select The Year Of Expiry" classname="Scenario: Payment Page" time="0.001" ignored="true"/>
+        <testcase name="And User Select The CVV Number" classname="Scenario: Payment Page" time="0.0" ignored="true"/>
+        <testcase name="And User Click On The Book Now It Navigate To The Booking Configuration Page" classname="Scenario: Payment Page" time="0.0" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Booking Configuration Page" time="0.0">
+        <testcase name="Then User Click On The Logout It Navigate To The Logout Page" classname="Scenario: Booking Configuration Page" time="0.0"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
